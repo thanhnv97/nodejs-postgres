@@ -14,7 +14,7 @@ module.exports = {
 		database: process.env.DB_NAME || 'iLrn',
 		password: process.env.DB_PASS || 'password',
 		username: process.env.DB_USER || 'postgres',
-		host: process.env.DB_HOST || '127.0.0.1',
+		host: process.env.DB_HOST || 'db',
 		dialect: 'postgres',
 		logging: true,
 	},
